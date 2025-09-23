@@ -15,8 +15,7 @@ root.configure(bg='indigo')
 root.resizable(False, False)
 
 global initial_copy_range
-#frame = tk.Frame(root, width=50, height=50, bg='red')
-#frame.grid()
+
 
 def main_input_directory():
     pmt_directory_label = tk.Label(root, text="PMT Directory", bg = "yellow", anchor = "w", width = 10, fg = "black")
@@ -317,5 +316,6 @@ def main_function():
     root.mainloop()
 
 main_function()
+
 
 
